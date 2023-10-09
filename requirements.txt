@@ -1,0 +1,5 @@
+git+https://github.com/hackenbergstefan/cwtoolbox.git@v0.3.0#egg=cwtoolbox
+git+https://github.com/Ledger-Donjon/lascar#egg=lascar
+ipykernel
+jupyter
+plotly
