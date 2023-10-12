@@ -1,0 +1,24 @@
+{
+    "name": "Chipwhisperer",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "remoteEnv": {
+        "CWFIRMWAREPATH": "/opt/chipwhisperer/chipwhisperer/hardware/victims/firmware"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "postCreateCommand": "pip3 install -r requirements.txt",
+    "postAttachCommand": "",
+    "runArgs": [
+        "--privileged"
+    ],
+    "mounts": ["type=bind,source=/dev/bus/usb,target=/dev/bus/usb"]
+}
