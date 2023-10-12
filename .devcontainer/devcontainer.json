@@ -1,10 +1,6 @@
 {
     "name": "Chipwhisperer",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": "..",
-        "cacheFrom": "ghcr.io/qdlmcfresh/securecoding_ws2324"
-    },
+    "image": "ghcr.io/qdlmcfresh/securecoding_ws2324",
     "remoteEnv": {
         "CWFIRMWAREPATH": "/opt/chipwhisperer/chipwhisperer/hardware/victims/firmware"
     },
