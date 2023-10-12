@@ -7,7 +7,7 @@
 - VSCode
 - VSCode Extensions: Python, Jupyter
 - Git
-- Python >=3.9
+- Python >=3.9 and <=3.11
 
 ### Installation of ChipWhisperer
 
