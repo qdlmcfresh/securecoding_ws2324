@@ -2,7 +2,8 @@
     "name": "Chipwhisperer",
     "build": {
         "dockerfile": "Dockerfile",
-        "context": ".."
+        "context": "..",
+        "cacheFrom": "ghcr.io/qdlmcfresh/securecoding_ws2324"
     },
     "remoteEnv": {
         "CWFIRMWAREPATH": "/opt/chipwhisperer/chipwhisperer/hardware/victims/firmware"
@@ -20,5 +21,7 @@
     "runArgs": [
         "--privileged"
     ],
-    "mounts": ["type=bind,source=/dev/bus/usb,target=/dev/bus/usb"]
+    "mounts": [
+        "type=bind,source=/dev/bus/usb,target=/dev/bus/usb"
+    ]
 }
