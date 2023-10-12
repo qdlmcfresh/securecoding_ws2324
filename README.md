@@ -16,6 +16,7 @@
 1. Download latest version of ChipWhisperer Setup from
    [https://github.com/newaetech/chipwhisperer/releases](https://github.com/newaetech/chipwhisperer/releases).
 2. Install. Recommended Installation folder: `C:\cw`.
+   Make sure that the paths does not contain whitespaces.
 
 #### Unix like OS
 
