@@ -20,7 +20,7 @@ click==8.1.7
 comm==0.1.4
 configobj==5.0.8
 contourpy==1.1.1
-cwtoolbox @ git+https://github.com/hackenbergstefan/cwtoolbox.git@18839b6ac4f6315330480d5299c97d5446590e0a
+cwtoolbox @ git+https://github.com/hackenbergstefan/cwtoolbox.git@0c670e2417c4013f27afccf63c99fb1e98c8d209
 cycler==0.12.1
 Cython==3.0.3
 debugpy==1.8.0
