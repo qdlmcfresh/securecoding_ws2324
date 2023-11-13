@@ -98,3 +98,27 @@ Reload VSCode (`Ctrl+Shift+P -> "Developer: Reload Window"`)
 2. Inside VSCode open [./lecture_0/test_setup.ipynb](./lecture_0/test_setup.ipynb)
 3. Select kernel from virtual environment
 4. Run cells step by step
+
+### Update
+
+In case `requirements.txt` and/or `requirements.lock` changed execute:
+
+1. Ensure you have activated the corresponding virtual environment.  E.g.
+
+   Unix like:
+
+   ```sh
+   . .venv/bin/activate
+   ```
+
+   Windows:
+
+   ```bat
+   .venv/bin/activate
+   ```
+
+2. Run
+
+   ```sh
+   pip install -r requirements.lock
+   ```
